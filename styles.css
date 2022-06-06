@@ -1,0 +1,66 @@
+:root {
+  --almost-white: hsl(0, 0%, 98%);
+  --medium-gray: hsl(0, 0%, 41%);
+  --almost-black: hsl(0, 0%, 8%);
+  font-family: "Epilogue", sans-serif;
+
+}
+
+h1, p, body {
+  background-color: var(--almost-white);
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--almost-black);
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 1.7rem;
+  height: 40vh;
+}
+
+.brand-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .brand-wrapper > img {
+  display: inline-block;
+} */
+
+.btn-full {
+  background-color: var(--almost-black);
+  color: var(--almost-white);
+  border: none;
+  font-size: 24px;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-weight: 700;
+}
+
+.hero-title {
+
+}
+
+.hero-text {
+  color: var(--medium-gray);
+}
+
+.hero-img-mobile {
+  width: 100%;
+}
+
+.hero-img-desktop {
+  display: none;
+}
