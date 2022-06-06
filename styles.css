@@ -17,7 +17,7 @@ p {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 70px;
   color: var(--almost-black);
 }
 
@@ -26,10 +26,14 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 10px;
 }
 
 .nav-content {
+  width: 75%;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .dropdown {
@@ -45,5 +49,31 @@ nav {
 }
 
 .hero-img-desktop {
-  width: 50%;
+  width: 100%;
+}
+
+.nav-btns button:nth-child(1) {
+  background-color: transparent;
+  border: none;
+}
+
+.nav-btns button:nth-child(2) {
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 450px);
+  grid-gap: 80px;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  width: 500px;
+
 }
